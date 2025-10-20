@@ -1,0 +1,64 @@
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.cursive-font {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#card-container {
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  width: 600px;
+  border: solid 0.5px grey;
+  text-align: center;
+  background: #FFFFF0;
+  background: linear-gradient(90deg, rgba(255, 255, 240, 1) 0%, rgba(212, 212, 197, 1) 100%);
+}
+
+#card-heading {
+  margin: 5px 0px 5px 0px;
+}
+
+#card-title {
+  font-size: 48px;
+  font-weight: 550;
+  margin: 5px 0px 0px 0px;
+}
+
+#card-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  letter-spacing: 2.5px;
+}
+
+#card-motto {
+  font-size: 12px;
+  margin: 5px 0px 5px 0px;
+}
+
+.tag-title {
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+#card-body {
+  margin: 10px 0px 10px 0px;
+}
+
+#friendships-sg-title, #we-are-ans-title {
+  margin: 15px 0px 5px 0px;
+}
+
+#friendships-sg-text, #we-are-ans-text {
+  font-size: 12px;
+  margin: 0px 70px 0px 70px;
+}
